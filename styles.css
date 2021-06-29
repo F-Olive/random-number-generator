@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  /* font-size: 1.625rem; */
+  font-size: medium;
+}
+
+main {
+  max-width: 70%;
+  border: #d81159 solid 3px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.intro,
+.generator {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.generator {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  max-width: 300px;
+  margin: 10px 0px;
+}
+
+button {
+  border-radius: 50px;
+  border: none;
+  background: #d81159;
+  color: white;
+  padding: 0.7rem 2rem;
+  box-shadow: 0px 3px 15px #410a1e4c;
+  transition: 0.3s ease-in-out;
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 4px;
+  margin: 25px auto;
+  width: max-content;
+}
+
+button:hover,
+button:focus {
+  background: #b12156;
+  box-shadow: lightcoral;
+}
+
+#minimum,
+#maximum {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#randomNumberValue {
+  margin-bottom: 40px;
+}

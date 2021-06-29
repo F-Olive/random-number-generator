@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="intro">
+            <h1>Random Number Generator</h1>
+            <p>Enter a minimum & maximum number in the fields below</p>
+        </div>
+        <div class="generator">
+            <p>Minimum </p>
+            <input type="number" id="minimum" class="numberFields" min="0" required>
+            <p>Maximum </p>
+            <input type="number" id="maximum" class="numberFields" min="1" required>
+            <button id="gen-btn">Generate Random Number</button>
+            <p id="randomNumberValue"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
